@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/nao-18/sample_typescript/issues"
   },
-  "homepage": "https://github.com/nao-18/sample_typescript#readme"
+  "homepage": "https://github.com/nao-18/sample_typescript#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
 }
