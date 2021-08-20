@@ -21,7 +21,7 @@ const OchiaiHiromitsu: Batter1 = {
 //   battingAverage: number;
 // };
 
-//intersectionで簡潔に書ける。
+//intersectionで2つのtypeを持つ新しい型を作れる。
 type TwoWayPlayer = Pitcher1 & Batter1;
 
 const OtaniShouhei: TwoWayPlayer = {
