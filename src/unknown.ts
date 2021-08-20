@@ -14,6 +14,7 @@ let sumAny = numberAny + 10;
 // let sumUnknown = numberUnknown + 10;
 
 //型が明確にできれば使用できる
+//下記のようにtypeofによって型を確認しながら行うことを”タイプガード”と呼ぶ。
 if (typeof numberUnknown === 'number') {
   let sumUnknown = numberUnknown + 10;
   console.log({ sumUnknown });
