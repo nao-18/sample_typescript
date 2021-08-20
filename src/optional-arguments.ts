@@ -16,6 +16,9 @@ let bmi: (height: number, weight: number, printable?: boolean) => number = (
   if (printable) {
     console.log({ bmi });
   }
+  //指定しなかった場合はprintableは"undefined"が入る。
+  console.log({ printable });
+
   return bmi;
 };
 
