@@ -3,7 +3,7 @@ export {};
 /**
  * 関数の場合のtypescript活用
  */
-function bmi(height: number, weight: number) {
+function bmi(height: number, weight: number): number {
   return weight / (height * weight);
 }
 
