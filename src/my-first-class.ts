@@ -5,6 +5,7 @@ class Person {
   name: string;
   age: number;
 
+  //コンストラクタには戻り値のアノテーションは書かない
   constructor(name: string, age: number) {
     this.name = name;
     this.age = age;
