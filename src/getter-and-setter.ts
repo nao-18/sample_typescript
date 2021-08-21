@@ -45,3 +45,4 @@ console.log(card.owner);
 console.log(card.debugPrint());
 card.secretNumber = 1234567890;
 console.log(card.debugPrint());
+console.log(card.secretNumber);
