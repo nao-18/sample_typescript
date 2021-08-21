@@ -13,6 +13,6 @@ let bmi: (height: number, weight: number) => number = (
   //   return height / (height * height);
   // };
   //　ワンラインで書く場合はreturnが不要。
-): number => height / (height * height);
+): number => weight / (height * height);
 
 console.log(bmi(1.6, 58));
